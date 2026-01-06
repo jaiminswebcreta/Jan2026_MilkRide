@@ -1,0 +1,17 @@
+
+{
+  "validAdmin": {
+    "username": "zupplypartner@gmail.com",
+    "password": "Zupply@123"
+  },
+
+  "invalidUser": {
+    "username": "zupplypartner@gmail.com",
+    "password": "wrong_password"
+  },
+
+  "emptyUser": {
+    "username": "",
+    "password": ""
+  }
+}
