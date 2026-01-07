@@ -1,0 +1,6 @@
+❌ [ERROR] Failed to navigate to Hub Manager tab: Error: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('xpath=(//*[normalize-space()=\'Hub Manager\'])[1]')
+    - locator resolved to <span class="menu-link">…</span>
+
+❌ [ERROR] Failed to navigate to All Hubs tab: Error: locator.click: Target page, context or browser has been closed

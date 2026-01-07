@@ -1,0 +1,11 @@
+ℹ️ [INFO] Starting Hub List Page test
+ℹ️ [INFO] Navigated to Delivrise login page
+ℹ️ [INFO] Filling in login credentials
+✅ [SUCCESS] Login form submitted
+✅ [SUCCESS] Login successful
+ℹ️ [INFO] Navigated to Hub Manager tab
+ℹ️ [INFO] Navigated to All Hubs tab
+✅ [SUCCESS] Navigated to All Hubs page successfully
+ℹ️ [INFO] Searched for hub: ahmedabad
+ℹ️ [INFO] Selected the first hub from the list
+✅ [SUCCESS] Hub List Page test completed successfully

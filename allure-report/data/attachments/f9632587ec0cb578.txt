@@ -1,0 +1,4 @@
+❌ [ERROR] Failed to click on Add Hub button: Error: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('xpath=(//a[normalize-space()=\'Add Hub\'])[1]')
+
