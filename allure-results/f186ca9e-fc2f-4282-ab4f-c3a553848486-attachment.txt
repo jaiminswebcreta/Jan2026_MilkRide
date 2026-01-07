@@ -1,0 +1,5 @@
+ℹ️ [INFO] Starting Hub List Page test
+ℹ️ [INFO] Navigated to Delivrise login page
+ℹ️ [INFO] Filling in login credentials
+✅ [SUCCESS] Login form submitted
+✅ [SUCCESS] Hub List Page test completed successfully

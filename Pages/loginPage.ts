@@ -23,18 +23,12 @@ export class LoginPage {
       await this.page.fill(`(//input[@id='email'])[1]`, username);
      }
      if (password){
-      await this.page.fill(`(//input[@id='password'])[1]`, password);
+      await this.page.fill(`(//input[@id='password'])[1]`, password); 
      }
         await this.page.click(`(//button[@type='submit'])[1]`);
         Logger.success('Login form submitted');
    }
 
-   async verifyLoginSuccess() {
-      await this.page.waitForURL(/admin\/merchant\/dashboard/);
-      Logger.success('Login successful, navigated to dashboard');
-   }
-    async verifyLoginFailure() {
-      Logger.error('Login failed');
-   }   
+    
  
 }

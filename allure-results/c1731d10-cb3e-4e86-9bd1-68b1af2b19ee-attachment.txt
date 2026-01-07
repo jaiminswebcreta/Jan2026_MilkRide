@@ -1,0 +1,5 @@
+❌ [ERROR] Failed to search for hub: Error: locator.fill: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('xpath=(//input[@placeholder=\'Search\'])[1]')
+
+❌ [ERROR] Failed to select the first hub: Error: locator.click: Target page, context or browser has been closed
