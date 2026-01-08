@@ -43,6 +43,7 @@ test("HubListPage", async ({ page }) => {
         await expect(page).toHaveURL(/admin\/hubs/);
         Logger.success("Returned to Hub List page successfully");
         await hubListPage.selectFirstHub();
+        await page.waitForLoadState("networkidle");
         await expect(page).toHaveURL(/admin\/hubs\/show/);
         Logger.success("Hub List Page test completed successfully");
         const selectedHubPage = new SelectedHubPage(page);

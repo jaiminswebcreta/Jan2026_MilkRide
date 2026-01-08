@@ -1,0 +1,4 @@
+ℹ️ [INFO] Starting test: Empty Credentials Login
+ℹ️ [INFO] Navigated to Delivrise login page
+ℹ️ [INFO] Filling in login credentials
+✅ [SUCCESS] Login form submitted

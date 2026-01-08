@@ -1,0 +1,377 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7] [cursor=pointer]: 
+        - text: 
+        - link "Logo" [ref=e8] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/home
+          - img "Logo" [ref=e9]
+      - generic [ref=e11]:
+        - generic [ref=e16]:
+          - generic [ref=e18]: 
+          - textbox "Search customers..." [ref=e19]
+          - text: 
+        - generic [ref=e20]:
+          - link "Customer" [ref=e22] [cursor=pointer]:
+            - /url: https://app.delivrise.com/admin/customers/create
+            - generic [ref=e23]: 
+          - link "Add New Order" [ref=e25] [cursor=pointer]:
+            - /url: https://app.delivrise.com/admin/customers/all-orders?openOrderModal=1
+            - generic [ref=e26]: 
+          - link "Add New Subscription" [ref=e28] [cursor=pointer]:
+            - /url: https://app.delivrise.com/admin/customers/subscriptions?openModal=1
+            - generic [ref=e29]: 
+          - link "View Website" [ref=e31] [cursor=pointer]:
+            - /url: https://phplaravel-1446728-5911946.cloudwaysapps.com/zupply
+            - generic [ref=e32]: 
+          - generic "View Notifications" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: 
+          - generic [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]: 
+            - generic: 
+    - text: "*"
+    - generic [ref=e42]:
+      - generic [ref=e45]:
+        - link "    Dashboard" [ref=e47] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/home
+          - generic [ref=e49]:
+            - generic [ref=e50]: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e51]: Dashboard
+        - generic [ref=e53]: Operations
+        - generic [ref=e54]:
+          - generic [ref=e55] [cursor=pointer]:
+            - generic [ref=e57]:
+              - generic [ref=e58]: 
+              - generic: 
+              - generic: 
+              - generic: 
+              - generic: 
+            - generic [ref=e59]: Hub Manager
+          - generic [ref=e61]:
+            - link "All Hubs" [ref=e63] [cursor=pointer]:
+              - /url: https://app.delivrise.com/admin/hubs
+              - generic [ref=e66]: All Hubs
+            - link "Ahmedabad" [ref=e68] [cursor=pointer]:
+              - /url: https://app.delivrise.com/admin/hubs/show/11/info
+              - generic [ref=e71]: Ahmedabad
+            - link "Gandhinagar" [ref=e73] [cursor=pointer]:
+              - /url: https://app.delivrise.com/admin/hubs/show/12/info
+              - generic [ref=e76]: Gandhinagar
+            - link "Mumbai" [ref=e78] [cursor=pointer]:
+              - /url: https://app.delivrise.com/admin/hubs/show/13/info
+              - generic [ref=e81]: Mumbai
+        - generic [ref=e83] [cursor=pointer]:
+          - generic [ref=e85]:
+            - generic [ref=e86]: 
+            - generic: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e87]: Delivery
+        - generic [ref=e89]:
+          - generic [ref=e90] [cursor=pointer]:
+            - generic [ref=e92]: 
+            - generic [ref=e93]: Inventory
+          - generic [ref=e95]:
+            - link "Warehouse" [ref=e97] [cursor=pointer]:
+              - /url: https://app.delivrise.com/admin/warehouse
+              - generic [ref=e100]: Warehouse
+            - link "Supplier" [ref=e102] [cursor=pointer]:
+              - /url: https://app.delivrise.com/admin/supplier
+              - generic [ref=e105]: Supplier
+            - link "Purchase Inventory" [ref=e107] [cursor=pointer]:
+              - /url: https://app.delivrise.com/admin/purchase
+              - generic [ref=e110]: Purchase Inventory
+            - link "Batches" [ref=e112] [cursor=pointer]:
+              - /url: https://app.delivrise.com/admin/batch/list
+              - generic [ref=e115]: Batches
+            - link "Thresholds" [ref=e117] [cursor=pointer]:
+              - /url: https://app.delivrise.com/admin/inventory/thresholds
+              - generic [ref=e120]: Thresholds
+            - link "Settings" [ref=e122] [cursor=pointer]:
+              - /url: https://app.delivrise.com/admin/inventory/settings
+              - generic [ref=e125]: Settings
+        - generic [ref=e127] [cursor=pointer]:
+          - generic [ref=e129]:
+            - generic [ref=e130]: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e131]: Notifications
+        - generic [ref=e134] [cursor=pointer]:
+          - generic [ref=e136]:
+            - generic [ref=e137]: 
+            - generic: 
+            - generic: 
+          - generic [ref=e138]: Billing & History
+        - generic [ref=e141]: Customers
+        - generic [ref=e143] [cursor=pointer]:
+          - generic [ref=e145]:
+            - generic [ref=e146]: 
+            - generic: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e147]: Customer Management
+        - generic [ref=e150] [cursor=pointer]:
+          - generic [ref=e152]:
+            - generic [ref=e153]: 
+            - generic: 
+            - generic: 
+          - generic [ref=e154]: Group Pricing
+        - generic [ref=e157] [cursor=pointer]:
+          - generic [ref=e159]:
+            - generic [ref=e160]: 
+            - generic: 
+            - generic: 
+          - generic [ref=e161]: Discount Rules
+        - generic [ref=e164]: Sales
+        - generic [ref=e166] [cursor=pointer]:
+          - generic [ref=e168]:
+            - generic [ref=e169]: 
+            - generic: 
+            - generic: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e170]: Sales
+        - generic [ref=e173] [cursor=pointer]:
+          - generic [ref=e175]:
+            - generic [ref=e176]: 
+            - generic: 
+            - generic: 
+          - generic [ref=e177]: CRM
+        - generic [ref=e180] [cursor=pointer]:
+          - generic [ref=e182]:
+            - generic [ref=e183]: 
+            - generic: 
+          - generic [ref=e184]: Churn Management
+        - generic [ref=e187] [cursor=pointer]:
+          - generic [ref=e189]:
+            - generic [ref=e190]: 
+            - generic: 
+            - generic: 
+          - generic [ref=e191]: Complaint System
+        - generic [ref=e194]: Catalog
+        - generic [ref=e196] [cursor=pointer]:
+          - generic [ref=e198]:
+            - generic [ref=e199]: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e200]: Product Catalog
+        - link "  Banner" [ref=e203] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/banners
+          - generic [ref=e205]:
+            - generic [ref=e206]: 
+            - generic: 
+          - generic [ref=e207]: Banner
+        - generic [ref=e209]: Location
+        - generic [ref=e211] [cursor=pointer]:
+          - generic [ref=e213]:
+            - generic [ref=e214]: 
+            - generic: 
+            - generic: 
+          - generic [ref=e215]: Location Manager
+        - generic [ref=e218]: Reports & Analytics
+        - generic [ref=e219]:
+          - generic [ref=e220] [cursor=pointer]:
+            - generic [ref=e222]:
+              - generic [ref=e223]: 
+              - generic: 
+              - generic: 
+            - generic [ref=e224]: Reports
+          - text:  
+        - generic [ref=e227]: User Center
+        - generic [ref=e228]:
+          - generic [ref=e229] [cursor=pointer]:
+            - generic [ref=e231]:
+              - generic [ref=e232]: 
+              - generic: 
+              - generic: 
+              - generic: 
+            - generic [ref=e233]: Users & Roles
+          - link "   My Account" [ref=e236] [cursor=pointer]:
+            - /url: https://app.delivrise.com/admin/profile
+            - generic [ref=e238]:
+              - generic [ref=e239]: 
+              - generic: 
+              - generic: 
+            - generic [ref=e240]: My Account
+          - link "     My Tickets" [ref=e242] [cursor=pointer]:
+            - /url: https://app.delivrise.com/admin/tickets
+            - generic [ref=e244]:
+              - generic [ref=e245]: 
+              - generic: 
+              - generic: 
+              - generic: 
+              - generic: 
+            - generic [ref=e246]: My Tickets
+          - link "    My Holidays" [ref=e248] [cursor=pointer]:
+            - /url: https://app.delivrise.com/admin/holidays
+            - generic [ref=e250]:
+              - generic [ref=e251]: 
+              - generic: 
+              - generic: 
+              - generic: 
+            - generic [ref=e252]: My Holidays
+          - link "   Inquiry List" [ref=e254] [cursor=pointer]:
+            - /url: https://app.delivrise.com/admin/inquiry
+            - generic [ref=e256]:
+              - generic [ref=e257]: 
+              - generic: 
+              - generic: 
+            - generic [ref=e258]: Inquiry List
+        - generic [ref=e260]: MASTER
+        - generic [ref=e262] [cursor=pointer]:
+          - generic [ref=e264]:
+            - generic [ref=e265]: 
+            - generic: 
+          - generic [ref=e266]: Master Modules
+        - generic [ref=e269]: Support
+        - generic [ref=e271] [cursor=pointer]:
+          - generic [ref=e273]: 
+          - generic [ref=e274]: Features
+        - generic [ref=e277]: Settings & Config
+        - link "  General Setting" [ref=e279] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/setting/2/general_settings
+          - generic [ref=e281]:
+            - generic [ref=e282]: 
+            - generic: 
+          - generic [ref=e283]: General Setting
+        - link "  Manage CMS Pages" [ref=e285] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/setting/2/cms_pages
+          - generic [ref=e287]:
+            - generic [ref=e288]: 
+            - generic: 
+          - generic [ref=e289]: Manage CMS Pages
+        - link "    Referral Programs" [ref=e291] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/setting/2/referral_programs
+          - generic [ref=e293]:
+            - generic [ref=e294]: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e295]: Referral Programs
+        - link "     Site Management" [ref=e297] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/config
+          - generic [ref=e299]:
+            - generic [ref=e300]: 
+            - generic: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e301]: Site Management
+        - link "    Changelog" [ref=e303] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/versions
+          - generic [ref=e305]:
+            - generic [ref=e306]: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e307]: Changelog
+      - generic [ref=e310]:
+        - generic [ref=e314]:
+          - heading "Batches for Ahmedabad" [level=1] [ref=e315]
+          - list [ref=e316]:
+            - listitem [ref=e317]:
+              - link "Home" [ref=e318] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/home
+            - listitem [ref=e319]
+            - listitem [ref=e321]:
+              - link "Hubs" [ref=e322] [cursor=pointer]:
+                - /url: ""
+            - listitem [ref=e323]
+            - listitem [ref=e325]: Batch List
+        - generic [ref=e327]:
+          - list [ref=e329]:
+            - listitem [ref=e330]:
+              - link "Info" [ref=e331] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/info
+            - listitem [ref=e332]:
+              - link "Accounts" [ref=e333] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/users
+            - listitem [ref=e334]:
+              - link "Locations" [ref=e335] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/locations
+            - listitem [ref=e336]:
+              - link "Products" [ref=e337] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/product_package
+            - listitem [ref=e338]:
+              - link "Contacts" [ref=e339] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/contacts
+            - listitem [ref=e340]:
+              - link "Documents" [ref=e341] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/documents
+            - listitem [ref=e342]:
+              - link "Disabled Area" [ref=e343] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/disabled_area
+            - listitem [ref=e344]:
+              - link "Payment Gateway" [ref=e345] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/payment_gateway
+            - listitem [ref=e346]:
+              - link "Batches" [ref=e347] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/batch_list
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - generic [ref=e352]:
+                - generic [ref=e353]:
+                  - generic [ref=e354]: 
+                  - generic: 
+                - textbox "Search Batches..." [ref=e355]
+              - generic [ref=e358]:
+                - generic [ref=e359]:
+                  - combobox [ref=e360]
+                  - combobox "Select Product" [ref=e363] [cursor=pointer]:
+                    - textbox "Select Product" [ref=e364]
+                - textbox "Expiry Date" [ref=e366]
+                - generic [ref=e367]:
+                  - combobox [ref=e368]
+                  - combobox "Availability" [ref=e371] [cursor=pointer]:
+                    - textbox "Availability" [ref=e372]
+                - generic [ref=e373]:
+                  - button "Filter" [ref=e374] [cursor=pointer]
+                  - button "Reset" [ref=e375] [cursor=pointer]
+                - button "  Export" [ref=e377] [cursor=pointer]:
+                  - generic [ref=e378]:
+                    - generic [ref=e379]: 
+                    - generic: 
+                  - text: Export
+            - table [ref=e382]:
+              - rowgroup [ref=e383]:
+                - row "Batch Name Product Name Warehouse Hub Name Total Qty Available Qty Reserved Qty Expiry Date Actions" [ref=e384]:
+                  - columnheader "Batch Name" [ref=e385]
+                  - columnheader "Product Name" [ref=e386]
+                  - columnheader "Warehouse" [ref=e387]
+                  - columnheader "Hub Name" [ref=e388]
+                  - columnheader "Total Qty" [ref=e389]
+                  - columnheader "Available Qty" [ref=e390]
+                  - columnheader "Reserved Qty" [ref=e391]
+                  - columnheader "Expiry Date" [ref=e392]
+                  - columnheader "Actions" [ref=e393]
+              - rowgroup
+      - generic [ref=e395]:
+        - link "Copyright© 2025 Delivrise. All rights reserved." [ref=e397] [cursor=pointer]:
+          - /url: ""
+        - list [ref=e398]:
+          - listitem [ref=e399]:
+            - link "hello@delivrise.com" [ref=e400] [cursor=pointer]:
+              - /url: mailto:hello@delivrise.com
+  - generic [ref=e402]:
+    - generic [ref=e403]:
+      - heading "Notifications 0 New Alerts" [level=3] [ref=e404]
+      - tablist [ref=e405]:
+        - tab "Logs" [selected] [ref=e406] [cursor=pointer]
+    - tabpanel [ref=e408]:
+      - generic [ref=e410]: You have no new alerts.
+      - link "View All" [ref=e412] [cursor=pointer]:
+        - /url: https://app.delivrise.com/admin/admin/vendor-notifications
+  - img
+```

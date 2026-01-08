@@ -1,0 +1,10 @@
+ℹ️ [INFO] Starting Delivery Dashboard test
+ℹ️ [INFO] Navigated to Delivrise login page
+ℹ️ [INFO] Filling in login credentials
+✅ [SUCCESS] Login form submitted
+✅ [SUCCESS] Login successful
+ℹ️ [INFO] Navigated to Delivery tab
+ℹ️ [INFO] Navigated to Delivery Dashboard tab
+✅ [SUCCESS] Navigated to Delivery Dashboard page successfully
+ℹ️ [INFO] Current URL is: https://app.delivrise.com/admin/delivery/delivery-dashboard
+✅ [SUCCESS] Delivery Dashboard Header is visible

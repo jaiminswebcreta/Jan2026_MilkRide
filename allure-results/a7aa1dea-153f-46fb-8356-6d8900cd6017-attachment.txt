@@ -1,0 +1,5 @@
+ℹ️ [INFO] Starting test: Valid Admin Login
+ℹ️ [INFO] Navigated to Delivrise login page
+ℹ️ [INFO] Filling in login credentials
+✅ [SUCCESS] Login form submitted
+✅ [SUCCESS] Login successful

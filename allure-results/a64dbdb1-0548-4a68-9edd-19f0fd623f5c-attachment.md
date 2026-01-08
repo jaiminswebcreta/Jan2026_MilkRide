@@ -1,0 +1,974 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7] [cursor=pointer]: 
+        - text: 
+        - link "Logo" [ref=e8] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/home
+          - img "Logo" [ref=e9]
+      - generic [ref=e11]:
+        - generic [ref=e16]:
+          - generic [ref=e18]: 
+          - textbox "Search customers..." [ref=e19]
+          - text: 
+        - generic [ref=e20]:
+          - link "Customer" [ref=e22] [cursor=pointer]:
+            - /url: https://app.delivrise.com/admin/customers/create
+            - generic [ref=e23]: 
+          - link "Add New Order" [ref=e25] [cursor=pointer]:
+            - /url: https://app.delivrise.com/admin/customers/all-orders?openOrderModal=1
+            - generic [ref=e26]: 
+          - link "Add New Subscription" [ref=e28] [cursor=pointer]:
+            - /url: https://app.delivrise.com/admin/customers/subscriptions?openModal=1
+            - generic [ref=e29]: 
+          - link "View Website" [ref=e31] [cursor=pointer]:
+            - /url: https://phplaravel-1446728-5911946.cloudwaysapps.com/zupply
+            - generic [ref=e32]: 
+          - generic "View Notifications" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: 
+          - generic [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]: 
+            - generic: 
+    - text: "*"
+    - generic [ref=e42]:
+      - generic [ref=e45]:
+        - link "    Dashboard" [ref=e47] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/home
+          - generic [ref=e49]:
+            - generic [ref=e50]: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e51]: Dashboard
+        - generic [ref=e53]: Operations
+        - generic [ref=e54]:
+          - generic [ref=e55] [cursor=pointer]:
+            - generic [ref=e57]:
+              - generic [ref=e58]: 
+              - generic: 
+              - generic: 
+              - generic: 
+              - generic: 
+            - generic [ref=e59]: Hub Manager
+          - generic [ref=e61]:
+            - link "All Hubs" [ref=e63] [cursor=pointer]:
+              - /url: https://app.delivrise.com/admin/hubs
+              - generic [ref=e66]: All Hubs
+            - link "Ahmedabad" [ref=e68] [cursor=pointer]:
+              - /url: https://app.delivrise.com/admin/hubs/show/11/info
+              - generic [ref=e71]: Ahmedabad
+            - link "Gandhinagar" [ref=e73] [cursor=pointer]:
+              - /url: https://app.delivrise.com/admin/hubs/show/12/info
+              - generic [ref=e76]: Gandhinagar
+            - link "Mumbai" [ref=e78] [cursor=pointer]:
+              - /url: https://app.delivrise.com/admin/hubs/show/13/info
+              - generic [ref=e81]: Mumbai
+        - generic [ref=e83] [cursor=pointer]:
+          - generic [ref=e85]:
+            - generic [ref=e86]: 
+            - generic: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e87]: Delivery
+        - generic [ref=e90] [cursor=pointer]:
+          - generic [ref=e92]: 
+          - generic [ref=e93]: Inventory
+        - generic [ref=e96] [cursor=pointer]:
+          - generic [ref=e98]:
+            - generic [ref=e99]: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e100]: Notifications
+        - generic [ref=e103] [cursor=pointer]:
+          - generic [ref=e105]:
+            - generic [ref=e106]: 
+            - generic: 
+            - generic: 
+          - generic [ref=e107]: Billing & History
+        - generic [ref=e110]: Customers
+        - generic [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: 
+            - generic: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e116]: Customer Management
+        - generic [ref=e119] [cursor=pointer]:
+          - generic [ref=e121]:
+            - generic [ref=e122]: 
+            - generic: 
+            - generic: 
+          - generic [ref=e123]: Group Pricing
+        - generic [ref=e126] [cursor=pointer]:
+          - generic [ref=e128]:
+            - generic [ref=e129]: 
+            - generic: 
+            - generic: 
+          - generic [ref=e130]: Discount Rules
+        - generic [ref=e133]: Sales
+        - generic [ref=e135] [cursor=pointer]:
+          - generic [ref=e137]:
+            - generic [ref=e138]: 
+            - generic: 
+            - generic: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e139]: Sales
+        - generic [ref=e142] [cursor=pointer]:
+          - generic [ref=e144]:
+            - generic [ref=e145]: 
+            - generic: 
+            - generic: 
+          - generic [ref=e146]: CRM
+        - generic [ref=e149] [cursor=pointer]:
+          - generic [ref=e151]:
+            - generic [ref=e152]: 
+            - generic: 
+          - generic [ref=e153]: Churn Management
+        - generic [ref=e156] [cursor=pointer]:
+          - generic [ref=e158]:
+            - generic [ref=e159]: 
+            - generic: 
+            - generic: 
+          - generic [ref=e160]: Complaint System
+        - generic [ref=e163]: Catalog
+        - generic [ref=e165] [cursor=pointer]:
+          - generic [ref=e167]:
+            - generic [ref=e168]: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e169]: Product Catalog
+        - link "  Banner" [ref=e172] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/banners
+          - generic [ref=e174]:
+            - generic [ref=e175]: 
+            - generic: 
+          - generic [ref=e176]: Banner
+        - generic [ref=e178]: Location
+        - generic [ref=e180] [cursor=pointer]:
+          - generic [ref=e182]:
+            - generic [ref=e183]: 
+            - generic: 
+            - generic: 
+          - generic [ref=e184]: Location Manager
+        - generic [ref=e187]: Reports & Analytics
+        - generic [ref=e188]:
+          - generic [ref=e189] [cursor=pointer]:
+            - generic [ref=e191]:
+              - generic [ref=e192]: 
+              - generic: 
+              - generic: 
+            - generic [ref=e193]: Reports
+          - text:  
+        - generic [ref=e196]: User Center
+        - generic [ref=e197]:
+          - generic [ref=e198] [cursor=pointer]:
+            - generic [ref=e200]:
+              - generic [ref=e201]: 
+              - generic: 
+              - generic: 
+              - generic: 
+            - generic [ref=e202]: Users & Roles
+          - link "   My Account" [ref=e205] [cursor=pointer]:
+            - /url: https://app.delivrise.com/admin/profile
+            - generic [ref=e207]:
+              - generic [ref=e208]: 
+              - generic: 
+              - generic: 
+            - generic [ref=e209]: My Account
+          - link "     My Tickets" [ref=e211] [cursor=pointer]:
+            - /url: https://app.delivrise.com/admin/tickets
+            - generic [ref=e213]:
+              - generic [ref=e214]: 
+              - generic: 
+              - generic: 
+              - generic: 
+              - generic: 
+            - generic [ref=e215]: My Tickets
+          - link "    My Holidays" [ref=e217] [cursor=pointer]:
+            - /url: https://app.delivrise.com/admin/holidays
+            - generic [ref=e219]:
+              - generic [ref=e220]: 
+              - generic: 
+              - generic: 
+              - generic: 
+            - generic [ref=e221]: My Holidays
+          - link "   Inquiry List" [ref=e223] [cursor=pointer]:
+            - /url: https://app.delivrise.com/admin/inquiry
+            - generic [ref=e225]:
+              - generic [ref=e226]: 
+              - generic: 
+              - generic: 
+            - generic [ref=e227]: Inquiry List
+        - generic [ref=e229]: MASTER
+        - generic [ref=e231] [cursor=pointer]:
+          - generic [ref=e233]:
+            - generic [ref=e234]: 
+            - generic: 
+          - generic [ref=e235]: Master Modules
+        - generic [ref=e238]: Support
+        - generic [ref=e240] [cursor=pointer]:
+          - generic [ref=e242]: 
+          - generic [ref=e243]: Features
+        - generic [ref=e246]: Settings & Config
+        - link "  General Setting" [ref=e248] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/setting/2/general_settings
+          - generic [ref=e250]:
+            - generic [ref=e251]: 
+            - generic: 
+          - generic [ref=e252]: General Setting
+        - link "  Manage CMS Pages" [ref=e254] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/setting/2/cms_pages
+          - generic [ref=e256]:
+            - generic [ref=e257]: 
+            - generic: 
+          - generic [ref=e258]: Manage CMS Pages
+        - link "    Referral Programs" [ref=e260] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/setting/2/referral_programs
+          - generic [ref=e262]:
+            - generic [ref=e263]: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e264]: Referral Programs
+        - link "     Site Management" [ref=e266] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/config
+          - generic [ref=e268]:
+            - generic [ref=e269]: 
+            - generic: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e270]: Site Management
+        - link "    Changelog" [ref=e272] [cursor=pointer]:
+          - /url: https://app.delivrise.com/admin/versions
+          - generic [ref=e274]:
+            - generic [ref=e275]: 
+            - generic: 
+            - generic: 
+            - generic: 
+          - generic [ref=e276]: Changelog
+      - generic [ref=e279]:
+        - generic [ref=e283]:
+          - 'heading "Hub: Ahmedabad" [level=1] [ref=e284]'
+          - list [ref=e285]:
+            - listitem [ref=e286]:
+              - link "Home" [ref=e287] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/home
+            - listitem [ref=e288]
+            - listitem [ref=e290]:
+              - link "Hubs" [ref=e291] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs
+            - listitem [ref=e292]
+            - listitem [ref=e294]: View
+        - generic [ref=e296]:
+          - list [ref=e298]:
+            - listitem [ref=e299]:
+              - link "Info" [ref=e300] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/info
+            - listitem [ref=e301]:
+              - link "Accounts" [ref=e302] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/users
+            - listitem [ref=e303]:
+              - link "Locations" [ref=e304] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/locations
+            - listitem [ref=e305]:
+              - link "Products" [ref=e306] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/product_package
+            - listitem [ref=e307]:
+              - link "Contacts" [ref=e308] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/contacts
+            - listitem [ref=e309]:
+              - link "Documents" [ref=e310] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/documents
+            - listitem [ref=e311]:
+              - link "Disabled Area" [ref=e312] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/disabled_area
+            - listitem [ref=e313]:
+              - link "Payment Gateway" [ref=e314] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/payment_gateway
+            - listitem [ref=e315]:
+              - link "Batches" [ref=e316] [cursor=pointer]:
+                - /url: https://app.delivrise.com/admin/hubs/show/11/batch_list
+          - generic [ref=e317]:
+            - text:       *  *  *                               
+            - generic [ref=e319]:
+              - generic [ref=e320]:
+                - generic [ref=e322]:
+                  - generic [ref=e323]: 
+                  - textbox "Search Product , Category , Brand" [ref=e324]
+                - link " Add Product" [ref=e327] [cursor=pointer]:
+                  - /url: https://app.delivrise.com/admin/hubs/11/packages/create
+                  - generic [ref=e328]: 
+                  - text: Add Product
+              - generic [ref=e330]:
+                - table [ref=e332]:
+                  - rowgroup [ref=e333]:
+                    - 'row "Sr No: activate to sort column descending Product: activate to sort column ascending Categories: activate to sort column ascending Brand: activate to sort column ascending Package: activate to sort column ascending Product Type: activate to sort column ascending Default Group MRP Price: activate to sort column ascending Default Group Sale Price: activate to sort column ascending Latest Stock: activate to sort column ascending Reserved Stock: activate to sort column ascending Track Stock: activate to sort column ascending Over Selling: activate to sort column ascending In Stock: activate to sort column ascending Actions: activate to sort column ascending" [ref=e334]':
+                      - 'columnheader "Sr No: activate to sort column descending" [ref=e335] [cursor=pointer]': Sr No
+                      - 'columnheader "Product: activate to sort column ascending" [ref=e336] [cursor=pointer]': Product
+                      - 'columnheader "Categories: activate to sort column ascending" [ref=e337] [cursor=pointer]': Categories
+                      - 'columnheader "Brand: activate to sort column ascending" [ref=e338] [cursor=pointer]': Brand
+                      - 'columnheader "Package: activate to sort column ascending" [ref=e339] [cursor=pointer]': Package
+                      - 'columnheader "Product Type: activate to sort column ascending" [ref=e340] [cursor=pointer]': Product Type
+                      - 'columnheader "Default Group MRP Price: activate to sort column ascending" [ref=e341] [cursor=pointer]': Default Group MRP Price
+                      - 'columnheader "Default Group Sale Price: activate to sort column ascending" [ref=e342] [cursor=pointer]': Default Group Sale Price
+                      - 'columnheader "Latest Stock: activate to sort column ascending" [ref=e343] [cursor=pointer]': Latest Stock
+                      - 'columnheader "Reserved Stock: activate to sort column ascending" [ref=e344] [cursor=pointer]': Reserved Stock
+                      - 'columnheader "Track Stock: activate to sort column ascending" [ref=e345] [cursor=pointer]': Track Stock
+                      - 'columnheader "Over Selling: activate to sort column ascending" [ref=e346] [cursor=pointer]': Over Selling
+                      - 'columnheader "In Stock: activate to sort column ascending" [ref=e347] [cursor=pointer]': In Stock
+                      - 'columnheader "Actions: activate to sort column ascending" [ref=e348] [cursor=pointer]': Actions
+                  - rowgroup [ref=e349]:
+                    - row "1 Amul Gold Full Cream Fresh Milk (Pouch) Milk & Dairy, Milk Amul 500 ml product ₹38.00 ₹38.00 0 0 False False Available Edit" [ref=e350]:
+                      - cell "1" [ref=e351]
+                      - cell "Amul Gold Full Cream Fresh Milk (Pouch)" [ref=e352]:
+                        - link "Amul Gold Full Cream Fresh Milk (Pouch)" [ref=e356] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/7/edit
+                      - cell "Milk & Dairy, Milk" [ref=e357]
+                      - cell "Amul" [ref=e358]
+                      - cell "500 ml" [ref=e359]
+                      - cell "product" [ref=e360]
+                      - cell "₹38.00" [ref=e361]
+                      - cell "₹38.00" [ref=e362]
+                      - cell "0" [ref=e363]:
+                        - generic [ref=e364]: "0"
+                      - cell "0" [ref=e365]:
+                        - generic [ref=e366]: "0"
+                      - cell "False" [ref=e367]:
+                        - generic [ref=e368]: "False"
+                      - cell "False" [ref=e369]:
+                        - generic [ref=e370]: "False"
+                      - cell "Available" [ref=e371]:
+                        - generic [ref=e372]: Available
+                      - cell "Edit" [ref=e373]:
+                        - link "Edit" [ref=e375] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/7/edit
+                    - row "2 Amul Gold Full Cream Fresh Milk (Pouch) Milk & Dairy, Milk Amul 1 ltr product ₹70.00 ₹70.00 0 0 False False Available Edit" [ref=e376]:
+                      - cell "2" [ref=e377]
+                      - cell "Amul Gold Full Cream Fresh Milk (Pouch)" [ref=e378]:
+                        - link "Amul Gold Full Cream Fresh Milk (Pouch)" [ref=e382] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/8/edit
+                      - cell "Milk & Dairy, Milk" [ref=e383]
+                      - cell "Amul" [ref=e384]
+                      - cell "1 ltr" [ref=e385]
+                      - cell "product" [ref=e386]
+                      - cell "₹70.00" [ref=e387]
+                      - cell "₹70.00" [ref=e388]
+                      - cell "0" [ref=e389]:
+                        - generic [ref=e390]: "0"
+                      - cell "0" [ref=e391]:
+                        - generic [ref=e392]: "0"
+                      - cell "False" [ref=e393]:
+                        - generic [ref=e394]: "False"
+                      - cell "False" [ref=e395]:
+                        - generic [ref=e396]: "False"
+                      - cell "Available" [ref=e397]:
+                        - generic [ref=e398]: Available
+                      - cell "Edit" [ref=e399]:
+                        - link "Edit" [ref=e401] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/8/edit
+                    - row "3 Amul Taaza Toned Fresh Milk (Pouch) Milk & Dairy, Milk Amul 500 ml product ₹29.00 ₹29.00 0 0 False False Available Edit" [ref=e402]:
+                      - cell "3" [ref=e403]
+                      - cell "Amul Taaza Toned Fresh Milk (Pouch)" [ref=e404]:
+                        - link "Amul Taaza Toned Fresh Milk (Pouch)" [ref=e408] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/9/edit
+                      - cell "Milk & Dairy, Milk" [ref=e409]
+                      - cell "Amul" [ref=e410]
+                      - cell "500 ml" [ref=e411]
+                      - cell "product" [ref=e412]
+                      - cell "₹29.00" [ref=e413]
+                      - cell "₹29.00" [ref=e414]
+                      - cell "0" [ref=e415]:
+                        - generic [ref=e416]: "0"
+                      - cell "0" [ref=e417]:
+                        - generic [ref=e418]: "0"
+                      - cell "False" [ref=e419]:
+                        - generic [ref=e420]: "False"
+                      - cell "False" [ref=e421]:
+                        - generic [ref=e422]: "False"
+                      - cell "Available" [ref=e423]:
+                        - generic [ref=e424]: Available
+                      - cell "Edit" [ref=e425]:
+                        - link "Edit" [ref=e427] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/9/edit
+                    - row "4 Amul Taaza Toned Fresh Milk (Pouch) Milk & Dairy, Milk Amul 1 ltr product ₹78.00 ₹78.00 0 0 False False Available Edit" [ref=e428]:
+                      - cell "4" [ref=e429]
+                      - cell "Amul Taaza Toned Fresh Milk (Pouch)" [ref=e430]:
+                        - link "Amul Taaza Toned Fresh Milk (Pouch)" [ref=e434] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/10/edit
+                      - cell "Milk & Dairy, Milk" [ref=e435]
+                      - cell "Amul" [ref=e436]
+                      - cell "1 ltr" [ref=e437]
+                      - cell "product" [ref=e438]
+                      - cell "₹78.00" [ref=e439]
+                      - cell "₹78.00" [ref=e440]
+                      - cell "0" [ref=e441]:
+                        - generic [ref=e442]: "0"
+                      - cell "0" [ref=e443]:
+                        - generic [ref=e444]: "0"
+                      - cell "False" [ref=e445]:
+                        - generic [ref=e446]: "False"
+                      - cell "False" [ref=e447]:
+                        - generic [ref=e448]: "False"
+                      - cell "Available" [ref=e449]:
+                        - generic [ref=e450]: Available
+                      - cell "Edit" [ref=e451]:
+                        - link "Edit" [ref=e453] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/10/edit
+                    - row "5 Amul Salted Butter Milk & Dairy, Butter Amul 500 g product ₹305.00 ₹305.00 0 0 False False Available Edit" [ref=e454]:
+                      - cell "5" [ref=e455]
+                      - cell "Amul Salted Butter" [ref=e456]:
+                        - link "Amul Salted Butter" [ref=e460] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/11/edit
+                      - cell "Milk & Dairy, Butter" [ref=e461]
+                      - cell "Amul" [ref=e462]
+                      - cell "500 g" [ref=e463]
+                      - cell "product" [ref=e464]
+                      - cell "₹305.00" [ref=e465]
+                      - cell "₹305.00" [ref=e466]
+                      - cell "0" [ref=e467]:
+                        - generic [ref=e468]: "0"
+                      - cell "0" [ref=e469]:
+                        - generic [ref=e470]: "0"
+                      - cell "False" [ref=e471]:
+                        - generic [ref=e472]: "False"
+                      - cell "False" [ref=e473]:
+                        - generic [ref=e474]: "False"
+                      - cell "Available" [ref=e475]:
+                        - generic [ref=e476]: Available
+                      - cell "Edit" [ref=e477]:
+                        - link "Edit" [ref=e479] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/11/edit
+                    - row "6 Amul Salted Butter Milk & Dairy, Butter Amul 100 g product ₹62.00 ₹62.00 0 0 False False Available Edit" [ref=e480]:
+                      - cell "6" [ref=e481]
+                      - cell "Amul Salted Butter" [ref=e482]:
+                        - link "Amul Salted Butter" [ref=e486] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/12/edit
+                      - cell "Milk & Dairy, Butter" [ref=e487]
+                      - cell "Amul" [ref=e488]
+                      - cell "100 g" [ref=e489]
+                      - cell "product" [ref=e490]
+                      - cell "₹62.00" [ref=e491]
+                      - cell "₹62.00" [ref=e492]
+                      - cell "0" [ref=e493]:
+                        - generic [ref=e494]: "0"
+                      - cell "0" [ref=e495]:
+                        - generic [ref=e496]: "0"
+                      - cell "False" [ref=e497]:
+                        - generic [ref=e498]: "False"
+                      - cell "False" [ref=e499]:
+                        - generic [ref=e500]: "False"
+                      - cell "Available" [ref=e501]:
+                        - generic [ref=e502]: Available
+                      - cell "Edit" [ref=e503]:
+                        - link "Edit" [ref=e505] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/12/edit
+                    - row "7 Amul Curd Milk & Dairy Amul 500 g product ₹25.00 ₹25.00 0 0 False False Available Edit" [ref=e506]:
+                      - cell "7" [ref=e507]
+                      - cell "Amul Curd" [ref=e508]:
+                        - link "Amul Curd" [ref=e512] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/13/edit
+                      - cell "Milk & Dairy" [ref=e513]
+                      - cell "Amul" [ref=e514]
+                      - cell "500 g" [ref=e515]
+                      - cell "product" [ref=e516]
+                      - cell "₹25.00" [ref=e517]
+                      - cell "₹25.00" [ref=e518]
+                      - cell "0" [ref=e519]:
+                        - generic [ref=e520]: "0"
+                      - cell "0" [ref=e521]:
+                        - generic [ref=e522]: "0"
+                      - cell "False" [ref=e523]:
+                        - generic [ref=e524]: "False"
+                      - cell "False" [ref=e525]:
+                        - generic [ref=e526]: "False"
+                      - cell "Available" [ref=e527]:
+                        - generic [ref=e528]: Available
+                      - cell "Edit" [ref=e529]:
+                        - link "Edit" [ref=e531] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/13/edit
+                    - row "8 Bisleri 20 L Packaged Drinking Water Water Bisleri 20 ltr product ₹95.00 ₹95.00 0 0 False False Available Edit" [ref=e532]:
+                      - cell "8" [ref=e533]
+                      - cell "Bisleri 20 L Packaged Drinking Water" [ref=e534]:
+                        - link "Bisleri 20 L Packaged Drinking Water" [ref=e538] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/15/edit
+                      - cell "Water" [ref=e539]
+                      - cell "Bisleri" [ref=e540]
+                      - cell "20 ltr" [ref=e541]
+                      - cell "product" [ref=e542]
+                      - cell "₹95.00" [ref=e543]
+                      - cell "₹95.00" [ref=e544]
+                      - cell "0" [ref=e545]:
+                        - generic [ref=e546]: "0"
+                      - cell "0" [ref=e547]:
+                        - generic [ref=e548]: "0"
+                      - cell "False" [ref=e549]:
+                        - generic [ref=e550]: "False"
+                      - cell "False" [ref=e551]:
+                        - generic [ref=e552]: "False"
+                      - cell "Available" [ref=e553]:
+                        - generic [ref=e554]: Available
+                      - cell "Edit" [ref=e555]:
+                        - link "Edit" [ref=e557] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/15/edit
+                    - row "9 Bisleri 5 L Packaged Drinking Water Water Bisleri 50 ltr product ₹750.00 ₹750.00 0 0 False False Available Edit" [ref=e558]:
+                      - cell "9" [ref=e559]
+                      - cell "Bisleri 5 L Packaged Drinking Water" [ref=e560]:
+                        - link "Bisleri 5 L Packaged Drinking Water" [ref=e564] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/16/edit
+                      - cell "Water" [ref=e565]
+                      - cell "Bisleri" [ref=e566]
+                      - cell "50 ltr" [ref=e567]
+                      - cell "product" [ref=e568]
+                      - cell "₹750.00" [ref=e569]
+                      - cell "₹750.00" [ref=e570]
+                      - cell "0" [ref=e571]:
+                        - generic [ref=e572]: "0"
+                      - cell "0" [ref=e573]:
+                        - generic [ref=e574]: "0"
+                      - cell "False" [ref=e575]:
+                        - generic [ref=e576]: "False"
+                      - cell "False" [ref=e577]:
+                        - generic [ref=e578]: "False"
+                      - cell "Available" [ref=e579]:
+                        - generic [ref=e580]: Available
+                      - cell "Edit" [ref=e581]:
+                        - link "Edit" [ref=e583] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/16/edit
+                    - row "10 Bisleri 5 L Packaged Drinking Water Water Bisleri 5 ltr product ₹75.00 ₹75.00 0 0 False False Available Edit" [ref=e584]:
+                      - cell "10" [ref=e585]
+                      - cell "Bisleri 5 L Packaged Drinking Water" [ref=e586]:
+                        - link "Bisleri 5 L Packaged Drinking Water" [ref=e590] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/17/edit
+                      - cell "Water" [ref=e591]
+                      - cell "Bisleri" [ref=e592]
+                      - cell "5 ltr" [ref=e593]
+                      - cell "product" [ref=e594]
+                      - cell "₹75.00" [ref=e595]
+                      - cell "₹75.00" [ref=e596]
+                      - cell "0" [ref=e597]:
+                        - generic [ref=e598]: "0"
+                      - cell "0" [ref=e599]:
+                        - generic [ref=e600]: "0"
+                      - cell "False" [ref=e601]:
+                        - generic [ref=e602]: "False"
+                      - cell "False" [ref=e603]:
+                        - generic [ref=e604]: "False"
+                      - cell "Available" [ref=e605]:
+                        - generic [ref=e606]: Available
+                      - cell "Edit" [ref=e607]:
+                        - link "Edit" [ref=e609] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/17/edit
+                    - row "11 Kwality Wall's Magnum Chocolate Truffle Ice Cream Ice Creams Kwality Walls 63 g product ₹100.00 ₹100.00 0 0 False False Available Edit" [ref=e610]:
+                      - cell "11" [ref=e611]
+                      - cell "Kwality Wall's Magnum Chocolate Truffle Ice Cream" [ref=e612]:
+                        - link "Kwality Wall's Magnum Chocolate Truffle Ice Cream" [ref=e616] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/18/edit
+                      - cell "Ice Creams" [ref=e617]
+                      - cell "Kwality Walls" [ref=e618]
+                      - cell "63 g" [ref=e619]
+                      - cell "product" [ref=e620]
+                      - cell "₹100.00" [ref=e621]
+                      - cell "₹100.00" [ref=e622]
+                      - cell "0" [ref=e623]:
+                        - generic [ref=e624]: "0"
+                      - cell "0" [ref=e625]:
+                        - generic [ref=e626]: "0"
+                      - cell "False" [ref=e627]:
+                        - generic [ref=e628]: "False"
+                      - cell "False" [ref=e629]:
+                        - generic [ref=e630]: "False"
+                      - cell "Available" [ref=e631]:
+                        - generic [ref=e632]: Available
+                      - cell "Edit" [ref=e633]:
+                        - link "Edit" [ref=e635] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/18/edit
+                    - row "12 Amul Choco Chips Ice Cream Tub Ice Creams Amul 1 ltr product ₹250.00 ₹250.00 0 0 False False Available Edit" [ref=e636]:
+                      - cell "12" [ref=e637]
+                      - cell "Amul Choco Chips Ice Cream Tub" [ref=e638]:
+                        - link "Amul Choco Chips Ice Cream Tub" [ref=e642] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/19/edit
+                      - cell "Ice Creams" [ref=e643]
+                      - cell "Amul" [ref=e644]
+                      - cell "1 ltr" [ref=e645]
+                      - cell "product" [ref=e646]
+                      - cell "₹250.00" [ref=e647]
+                      - cell "₹250.00" [ref=e648]
+                      - cell "0" [ref=e649]:
+                        - generic [ref=e650]: "0"
+                      - cell "0" [ref=e651]:
+                        - generic [ref=e652]: "0"
+                      - cell "False" [ref=e653]:
+                        - generic [ref=e654]: "False"
+                      - cell "False" [ref=e655]:
+                        - generic [ref=e656]: "False"
+                      - cell "Available" [ref=e657]:
+                        - generic [ref=e658]: Available
+                      - cell "Edit" [ref=e659]:
+                        - link "Edit" [ref=e661] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/19/edit
+                    - row "13 The Dairy Factory by Kwality Walls Butterscotch Ice Cream Tub Ice Creams Kwality Walls 700 ml product ₹200.00 ₹200.00 0 0 False False Available Edit" [ref=e662]:
+                      - cell "13" [ref=e663]
+                      - cell "The Dairy Factory by Kwality Walls Butterscotch Ice Cream Tub" [ref=e664]:
+                        - link "The Dairy Factory by Kwality Walls Butterscotch Ice Cream Tub" [ref=e668] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/20/edit
+                      - cell "Ice Creams" [ref=e669]
+                      - cell "Kwality Walls" [ref=e670]
+                      - cell "700 ml" [ref=e671]
+                      - cell "product" [ref=e672]
+                      - cell "₹200.00" [ref=e673]
+                      - cell "₹200.00" [ref=e674]
+                      - cell "0" [ref=e675]:
+                        - generic [ref=e676]: "0"
+                      - cell "0" [ref=e677]:
+                        - generic [ref=e678]: "0"
+                      - cell "False" [ref=e679]:
+                        - generic [ref=e680]: "False"
+                      - cell "False" [ref=e681]:
+                        - generic [ref=e682]: "False"
+                      - cell "Available" [ref=e683]:
+                        - generic [ref=e684]: Available
+                      - cell "Edit" [ref=e685]:
+                        - link "Edit" [ref=e687] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/20/edit
+                    - row "14 Amul Pure Milk Cheese Cheese Amul 200 g product ₹139.00 ₹139.00 0 0 False False Available Edit" [ref=e688]:
+                      - cell "14" [ref=e689]
+                      - cell "Amul Pure Milk Cheese" [ref=e690]:
+                        - link "Amul Pure Milk Cheese" [ref=e694] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/21/edit
+                      - cell "Cheese" [ref=e695]
+                      - cell "Amul" [ref=e696]
+                      - cell "200 g" [ref=e697]
+                      - cell "product" [ref=e698]
+                      - cell "₹139.00" [ref=e699]
+                      - cell "₹139.00" [ref=e700]
+                      - cell "0" [ref=e701]:
+                        - generic [ref=e702]: "0"
+                      - cell "0" [ref=e703]:
+                        - generic [ref=e704]: "0"
+                      - cell "False" [ref=e705]:
+                        - generic [ref=e706]: "False"
+                      - cell "False" [ref=e707]:
+                        - generic [ref=e708]: "False"
+                      - cell "Available" [ref=e709]:
+                        - generic [ref=e710]: Available
+                      - cell "Edit" [ref=e711]:
+                        - link "Edit" [ref=e713] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/21/edit
+                    - row "15 Coca Cola Soft Drink Soft Drinks Coca-Cola 2.3 ltr product ₹150.00 ₹150.00 0 0 False False Available Edit" [ref=e714]:
+                      - cell "15" [ref=e715]
+                      - cell "Coca Cola Soft Drink" [ref=e716]:
+                        - link "Coca Cola Soft Drink" [ref=e720] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/22/edit
+                      - cell "Soft Drinks" [ref=e721]
+                      - cell "Coca-Cola" [ref=e722]
+                      - cell "2.3 ltr" [ref=e723]
+                      - cell "product" [ref=e724]
+                      - cell "₹150.00" [ref=e725]
+                      - cell "₹150.00" [ref=e726]
+                      - cell "0" [ref=e727]:
+                        - generic [ref=e728]: "0"
+                      - cell "0" [ref=e729]:
+                        - generic [ref=e730]: "0"
+                      - cell "False" [ref=e731]:
+                        - generic [ref=e732]: "False"
+                      - cell "False" [ref=e733]:
+                        - generic [ref=e734]: "False"
+                      - cell "Available" [ref=e735]:
+                        - generic [ref=e736]: Available
+                      - cell "Edit" [ref=e737]:
+                        - link "Edit" [ref=e739] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/22/edit
+                    - row "16 Coca Cola Soft Drink Soft Drinks Coca-Cola 750 ml product ₹40.00 ₹40.00 0 0 False False Available Edit" [ref=e740]:
+                      - cell "16" [ref=e741]
+                      - cell "Coca Cola Soft Drink" [ref=e742]:
+                        - link "Coca Cola Soft Drink" [ref=e746] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/23/edit
+                      - cell "Soft Drinks" [ref=e747]
+                      - cell "Coca-Cola" [ref=e748]
+                      - cell "750 ml" [ref=e749]
+                      - cell "product" [ref=e750]
+                      - cell "₹40.00" [ref=e751]
+                      - cell "₹40.00" [ref=e752]
+                      - cell "0" [ref=e753]:
+                        - generic [ref=e754]: "0"
+                      - cell "0" [ref=e755]:
+                        - generic [ref=e756]: "0"
+                      - cell "False" [ref=e757]:
+                        - generic [ref=e758]: "False"
+                      - cell "False" [ref=e759]:
+                        - generic [ref=e760]: "False"
+                      - cell "Available" [ref=e761]:
+                        - generic [ref=e762]: Available
+                      - cell "Edit" [ref=e763]:
+                        - link "Edit" [ref=e765] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/23/edit
+                    - row "17 Amul Pure Milk Cheese Cheese Amul 500 g product ₹290.00 ₹290.00 0 0 False False Available Edit" [ref=e766]:
+                      - cell "17" [ref=e767]
+                      - cell "Amul Pure Milk Cheese" [ref=e768]:
+                        - link "Amul Pure Milk Cheese" [ref=e772] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/24/edit
+                      - cell "Cheese" [ref=e773]
+                      - cell "Amul" [ref=e774]
+                      - cell "500 g" [ref=e775]
+                      - cell "product" [ref=e776]
+                      - cell "₹290.00" [ref=e777]
+                      - cell "₹290.00" [ref=e778]
+                      - cell "0" [ref=e779]:
+                        - generic [ref=e780]: "0"
+                      - cell "0" [ref=e781]:
+                        - generic [ref=e782]: "0"
+                      - cell "False" [ref=e783]:
+                        - generic [ref=e784]: "False"
+                      - cell "False" [ref=e785]:
+                        - generic [ref=e786]: "False"
+                      - cell "Available" [ref=e787]:
+                        - generic [ref=e788]: Available
+                      - cell "Edit" [ref=e789]:
+                        - link "Edit" [ref=e791] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/24/edit
+                    - row "18 Amul Fresh Malai Paneer Milk & Dairy Amul 200 g product ₹99.00 ₹99.00 0 0 False False Available Edit" [ref=e792]:
+                      - cell "18" [ref=e793]
+                      - cell "Amul Fresh Malai Paneer" [ref=e794]:
+                        - link "Amul Fresh Malai Paneer" [ref=e798] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/25/edit
+                      - cell "Milk & Dairy" [ref=e799]
+                      - cell "Amul" [ref=e800]
+                      - cell "200 g" [ref=e801]
+                      - cell "product" [ref=e802]
+                      - cell "₹99.00" [ref=e803]
+                      - cell "₹99.00" [ref=e804]
+                      - cell "0" [ref=e805]:
+                        - generic [ref=e806]: "0"
+                      - cell "0" [ref=e807]:
+                        - generic [ref=e808]: "0"
+                      - cell "False" [ref=e809]:
+                        - generic [ref=e810]: "False"
+                      - cell "False" [ref=e811]:
+                        - generic [ref=e812]: "False"
+                      - cell "Available" [ref=e813]:
+                        - generic [ref=e814]: Available
+                      - cell "Edit" [ref=e815]:
+                        - link "Edit" [ref=e817] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/25/edit
+                    - row "19 Amul Fresh Malai Paneer Milk & Dairy Amul 100 g product ₹40.00 ₹40.00 0 0 False False Available Edit" [ref=e818]:
+                      - cell "19" [ref=e819]
+                      - cell "Amul Fresh Malai Paneer" [ref=e820]:
+                        - link "Amul Fresh Malai Paneer" [ref=e824] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/26/edit
+                      - cell "Milk & Dairy" [ref=e825]
+                      - cell "Amul" [ref=e826]
+                      - cell "100 g" [ref=e827]
+                      - cell "product" [ref=e828]
+                      - cell "₹40.00" [ref=e829]
+                      - cell "₹40.00" [ref=e830]
+                      - cell "0" [ref=e831]:
+                        - generic [ref=e832]: "0"
+                      - cell "0" [ref=e833]:
+                        - generic [ref=e834]: "0"
+                      - cell "False" [ref=e835]:
+                        - generic [ref=e836]: "False"
+                      - cell "False" [ref=e837]:
+                        - generic [ref=e838]: "False"
+                      - cell "Available" [ref=e839]:
+                        - generic [ref=e840]: Available
+                      - cell "Edit" [ref=e841]:
+                        - link "Edit" [ref=e843] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/26/edit
+                    - row "20 Amul Pure Ghee Milk & Dairy Amul 1 ltr product ₹600.00 ₹600.00 0 0 False False Available Edit" [ref=e844]:
+                      - cell "20" [ref=e845]
+                      - cell "Amul Pure Ghee" [ref=e846]:
+                        - link "Amul Pure Ghee" [ref=e850] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/27/edit
+                      - cell "Milk & Dairy" [ref=e851]
+                      - cell "Amul" [ref=e852]
+                      - cell "1 ltr" [ref=e853]
+                      - cell "product" [ref=e854]
+                      - cell "₹600.00" [ref=e855]
+                      - cell "₹600.00" [ref=e856]
+                      - cell "0" [ref=e857]:
+                        - generic [ref=e858]: "0"
+                      - cell "0" [ref=e859]:
+                        - generic [ref=e860]: "0"
+                      - cell "False" [ref=e861]:
+                        - generic [ref=e862]: "False"
+                      - cell "False" [ref=e863]:
+                        - generic [ref=e864]: "False"
+                      - cell "Available" [ref=e865]:
+                        - generic [ref=e866]: Available
+                      - cell "Edit" [ref=e867]:
+                        - link "Edit" [ref=e869] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/27/edit
+                    - row "21 Amul Pure Ghee Milk & Dairy Amul 2 ltr product ₹1,200.00 ₹1,200.00 0 0 False False Available Edit" [ref=e870]:
+                      - cell "21" [ref=e871]
+                      - cell "Amul Pure Ghee" [ref=e872]:
+                        - link "Amul Pure Ghee" [ref=e876] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/28/edit
+                      - cell "Milk & Dairy" [ref=e877]
+                      - cell "Amul" [ref=e878]
+                      - cell "2 ltr" [ref=e879]
+                      - cell "product" [ref=e880]
+                      - cell "₹1,200.00" [ref=e881]
+                      - cell "₹1,200.00" [ref=e882]
+                      - cell "0" [ref=e883]:
+                        - generic [ref=e884]: "0"
+                      - cell "0" [ref=e885]:
+                        - generic [ref=e886]: "0"
+                      - cell "False" [ref=e887]:
+                        - generic [ref=e888]: "False"
+                      - cell "False" [ref=e889]:
+                        - generic [ref=e890]: "False"
+                      - cell "Available" [ref=e891]:
+                        - generic [ref=e892]: Available
+                      - cell "Edit" [ref=e893]:
+                        - link "Edit" [ref=e895] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/28/edit
+                    - row "22 Sprite Lime Flavored Soft Drink Soft Drinks Coca-Cola 750 ml product ₹45.00 ₹45.00 0 0 False False Available Edit" [ref=e896]:
+                      - cell "22" [ref=e897]
+                      - cell "Sprite Lime Flavored Soft Drink" [ref=e898]:
+                        - link "Sprite Lime Flavored Soft Drink" [ref=e902] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/29/edit
+                      - cell "Soft Drinks" [ref=e903]
+                      - cell "Coca-Cola" [ref=e904]
+                      - cell "750 ml" [ref=e905]
+                      - cell "product" [ref=e906]
+                      - cell "₹45.00" [ref=e907]
+                      - cell "₹45.00" [ref=e908]
+                      - cell "0" [ref=e909]:
+                        - generic [ref=e910]: "0"
+                      - cell "0" [ref=e911]:
+                        - generic [ref=e912]: "0"
+                      - cell "False" [ref=e913]:
+                        - generic [ref=e914]: "False"
+                      - cell "False" [ref=e915]:
+                        - generic [ref=e916]: "False"
+                      - cell "Available" [ref=e917]:
+                        - generic [ref=e918]: Available
+                      - cell "Edit" [ref=e919]:
+                        - link "Edit" [ref=e921] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/29/edit
+                    - row "23 Fanta Orange Flavoured Soft Drink Soft Drinks Coca-Cola 750 ml product ₹45.00 ₹45.00 0 0 False False Available Edit" [ref=e922]:
+                      - cell "23" [ref=e923]
+                      - cell "Fanta Orange Flavoured Soft Drink" [ref=e924]:
+                        - link "Fanta Orange Flavoured Soft Drink" [ref=e928] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/30/edit
+                      - cell "Soft Drinks" [ref=e929]
+                      - cell "Coca-Cola" [ref=e930]
+                      - cell "750 ml" [ref=e931]
+                      - cell "product" [ref=e932]
+                      - cell "₹45.00" [ref=e933]
+                      - cell "₹45.00" [ref=e934]
+                      - cell "0" [ref=e935]:
+                        - generic [ref=e936]: "0"
+                      - cell "0" [ref=e937]:
+                        - generic [ref=e938]: "0"
+                      - cell "False" [ref=e939]:
+                        - generic [ref=e940]: "False"
+                      - cell "False" [ref=e941]:
+                        - generic [ref=e942]: "False"
+                      - cell "Available" [ref=e943]:
+                        - generic [ref=e944]: Available
+                      - cell "Edit" [ref=e945]:
+                        - link "Edit" [ref=e947] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/30/edit
+                    - row "24 Limca Lemon 'N' Lime Soft Drink Soft Drinks Coca-Cola 750 ml product ₹45.00 ₹45.00 0 0 False False Available Edit" [ref=e948]:
+                      - cell "24" [ref=e949]
+                      - cell "Limca Lemon 'N' Lime Soft Drink" [ref=e950]:
+                        - link "Limca Lemon 'N' Lime Soft Drink" [ref=e954] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/31/edit
+                      - cell "Soft Drinks" [ref=e955]
+                      - cell "Coca-Cola" [ref=e956]
+                      - cell "750 ml" [ref=e957]
+                      - cell "product" [ref=e958]
+                      - cell "₹45.00" [ref=e959]
+                      - cell "₹45.00" [ref=e960]
+                      - cell "0" [ref=e961]:
+                        - generic [ref=e962]: "0"
+                      - cell "0" [ref=e963]:
+                        - generic [ref=e964]: "0"
+                      - cell "False" [ref=e965]:
+                        - generic [ref=e966]: "False"
+                      - cell "False" [ref=e967]:
+                        - generic [ref=e968]: "False"
+                      - cell "Available" [ref=e969]:
+                        - generic [ref=e970]: Available
+                      - cell "Edit" [ref=e971]:
+                        - link "Edit" [ref=e973] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/31/edit
+                    - row "25 Coca-Cola Diet Coke Soft Drinks Coca-Cola 300 ml product ₹50.00 ₹50.00 0 0 False False Available Edit" [ref=e974]:
+                      - cell "25" [ref=e975]
+                      - cell "Coca-Cola Diet Coke" [ref=e976]:
+                        - link "Coca-Cola Diet Coke" [ref=e980] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/32/edit
+                      - cell "Soft Drinks" [ref=e981]
+                      - cell "Coca-Cola" [ref=e982]
+                      - cell "300 ml" [ref=e983]
+                      - cell "product" [ref=e984]
+                      - cell "₹50.00" [ref=e985]
+                      - cell "₹50.00" [ref=e986]
+                      - cell "0" [ref=e987]:
+                        - generic [ref=e988]: "0"
+                      - cell "0" [ref=e989]:
+                        - generic [ref=e990]: "0"
+                      - cell "False" [ref=e991]:
+                        - generic [ref=e992]: "False"
+                      - cell "False" [ref=e993]:
+                        - generic [ref=e994]: "False"
+                      - cell "Available" [ref=e995]:
+                        - generic [ref=e996]: Available
+                      - cell "Edit" [ref=e997]:
+                        - link "Edit" [ref=e999] [cursor=pointer]:
+                          - /url: https://app.delivrise.com/admin/hubs/11/packages/32/edit
+                - generic [ref=e1000]:
+                  - generic [ref=e1001]:
+                    - combobox [ref=e1004]:
+                      - option "10"
+                      - option "25" [selected]
+                      - option "50"
+                      - option "100"
+                    - status [ref=e1005]: Showing 1 to 25 of 58 records
+                  - list [ref=e1008]:
+                    - listitem [ref=e1009]:
+                      - link:
+                        - /url: "#"
+                    - listitem [ref=e1010]:
+                      - link "1" [ref=e1011] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem [ref=e1012]:
+                      - link "2" [ref=e1013] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem [ref=e1014]:
+                      - link "3" [ref=e1015] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem [ref=e1016]:
+                      - link [ref=e1017] [cursor=pointer]:
+                        - /url: "#"
+            - text:                                                               + 
+      - generic [ref=e1020]:
+        - link "Copyright© 2025 Delivrise. All rights reserved." [ref=e1022] [cursor=pointer]:
+          - /url: ""
+        - list [ref=e1023]:
+          - listitem [ref=e1024]:
+            - link "hello@delivrise.com" [ref=e1025] [cursor=pointer]:
+              - /url: mailto:hello@delivrise.com
+  - generic [ref=e1027]:
+    - generic [ref=e1028]:
+      - heading "Notifications 0 New Alerts" [level=3] [ref=e1029]
+      - tablist [ref=e1030]:
+        - tab "Logs" [selected] [ref=e1031] [cursor=pointer]
+    - tabpanel [ref=e1033]:
+      - generic [ref=e1035]: You have no new alerts.
+      - link "View All" [ref=e1037] [cursor=pointer]:
+        - /url: https://app.delivrise.com/admin/admin/vendor-notifications
+  - img
+```

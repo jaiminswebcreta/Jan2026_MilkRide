@@ -39,41 +39,62 @@ export class SelectedHubPage {
   async navigateToAccountsTab() {
     await this.AcccountTab.waitFor({ state: "visible", timeout: 5000 });
     await this.AcccountTab.click();
+    await this.page.waitForLoadState("networkidle");
     Logger.info("Navigated to Accounts Tab");
   }
   async navigateToLocationsTab() {
-    await this.LocationsTab.waitFor({ state: "visible", timeout: 5000 });
-    await this.LocationsTab.click();
+    await Promise.all([
+      this.LocationsTab.waitFor({ state: "visible", timeout: 5000 }),
+      this.LocationsTab.click(),
+    ]);
+
     Logger.info("Navigated to Locations Tab");
   }
   async navigateToProductsTab() {
-    await this.ProductsTab.waitFor({ state: "visible", timeout: 5000 });
-    await this.ProductsTab.click();
+    await Promise.all([
+      this.ProductsTab.waitFor({ state: "visible", timeout: 5000 }),
+      this.ProductsTab.click(),
+    ]);
+
     Logger.info("Navigated to Products Tab");
   }
   async navigateToContactsTab() {
-    await this.ContacsTab.waitFor({ state: "visible", timeout: 5000 });
-    await this.ContacsTab.click();
+    await Promise.all([
+      this.ContacsTab.waitFor({ state: "visible", timeout: 5000 }),
+      this.ContacsTab.click(),
+    ]);
+
     Logger.info("Navigated to Contacts Tab");
   }
   async navigateToDocumentsTab() {
-    await this.DocumentsTab.waitFor({ state: "visible", timeout: 5000 });
-    await await this.DocumentsTab.click();
+    await Promise.all([
+      this.DocumentsTab.waitFor({ state: "visible", timeout: 5000 }),
+      this.DocumentsTab.click(),
+    ]);
+
     Logger.info("Navigated to Documents Tab");
   }
   async navigateToDisabledAreaTab() {
-    await this.DisableareaTab.waitFor({ state: "visible", timeout: 5000 });
-    await this.DisableareaTab.click();
+    await Promise.all([
+      this.DisableareaTab.waitFor({ state: "visible", timeout: 5000 }),
+      this.DisableareaTab.click(),
+    ]);
     Logger.info("Navigated to Disabled Area Tab");
   }
   async navigateToPaymentGatewayTab() {
-    await this.PaymentGatewayTab.waitFor({ state: "visible", timeout: 5000 });
-    await this.PaymentGatewayTab.click();
+    await Promise.all([
+      this.PaymentGatewayTab.waitFor({ state: "visible", timeout: 5000 }),
+      this.PaymentGatewayTab.click(),
+    ]);
+
     Logger.info("Navigated to Payment Gateway Tab");
   }
   async navigateToBatchesTab() {
-    await this.BatchTab.waitFor({ state: "visible", timeout: 5000 });
-    await this.BatchTab.click();
+    await Promise.all([
+      this.BatchTab.waitFor({ state: "visible", timeout: 5000 }),
+      this.BatchTab.click(),
+    ]);
+
     Logger.info("Navigated to Batches Tab");
   }
 }

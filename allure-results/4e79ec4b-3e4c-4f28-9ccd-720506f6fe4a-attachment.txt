@@ -1,0 +1,22 @@
+ℹ️ [INFO] Starting Hub List Page test
+ℹ️ [INFO] Navigated to Delivrise login page
+ℹ️ [INFO] Filling in login credentials
+✅ [SUCCESS] Login form submitted
+✅ [SUCCESS] Login successful
+ℹ️ [INFO] Navigated to Hub Manager tab
+ℹ️ [INFO] Navigated to All Hubs tab
+✅ [SUCCESS] Navigated to All Hubs page successfully
+ℹ️ [INFO] Searched for hub: ahmedabad
+ℹ️ [INFO] Clicked on Add Hub button
+✅ [SUCCESS] Navigated to Create Hub page successfully
+✅ [SUCCESS] On Create Hub page, header is visible
+✅ [SUCCESS] Create Hub page header verified successfully
+ℹ️ [INFO] Clicked on Back button
+ℹ️ [INFO] Clicked on Back button to return to Hub List page
+✅ [SUCCESS] Returned to Hub List page successfully
+ℹ️ [INFO] Selected the first hub from the list
+✅ [SUCCESS] Hub List Page test completed successfully
+✅ [SUCCESS] Hub Header is visible
+ℹ️ [INFO] Navigated to Accounts Tab
+ℹ️ [INFO] Navigated to Locations Tab
+ℹ️ [INFO] Navigated to Products Tab
